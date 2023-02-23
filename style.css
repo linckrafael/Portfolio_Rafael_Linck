@@ -1,0 +1,130 @@
+/* texto hero image */
+.hero_titulo {
+  font-size: 4rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.bgimage {
+  height: 100vh;
+  background: url("img/capa.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+/* imagem sobre */
+
+.imagemSobre {
+  width: 100%;
+  border-radius: 10%;
+}
+
+/* habilidades */
+
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+  background-color: rgb(12, 20, 20);
+  color: white;
+}
+
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  color: white;
+}
+.card:hover .html {
+  color: orangered;
+}
+.card:hover .css {
+  color: blue;
+}
+.card:hover .js {
+  color: yellow;
+}
+
+.card:hover .c {
+  color: rgb(168, 3, 168);
+}
+
+.card:hover .git {
+  color: orange;
+}
+
+.card:hover .boo {
+  color: rgb(114, 7, 114);
+}
+
+.card:hover .soft {
+  color: green;
+}
+
+.card:hover .whats {
+  color: green;
+}
+
+.card:hover .mail {
+  color: red;
+}
+
+.card:hover .din {
+  color: blue;
+}
+
+.servicesText:hover {
+  border: 2px solid black;
+}
+
+/*menu*/
+.navbar {
+  background: rgba(255, 255, 255, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.3px);
+  -webkit-backdrop-filter: blur(8.3px);
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: rgb(12, 20, 20);
+  border-radius: 5%;
+}
+
+.contactIcon {
+  font-size: 56px;
+  color: white;
+}
+
+.contactIcon:hover {
+  font-size: 66px;
+}
+
+#sobre,
+#servicos,
+#portfolio,
+#contato {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#sobre,
+#portfolio {
+  background-color: rgb(12, 20, 20);
+  color: white;
+}
