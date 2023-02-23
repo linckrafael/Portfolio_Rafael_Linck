@@ -46,6 +46,12 @@
   text-align: center;
   color: white;
 }
+
+.card-title-por {
+  text-align: center;
+  color: black;
+}
+
 .card:hover .html {
   color: orangered;
 }
